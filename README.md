@@ -2,6 +2,12 @@
 
 ## Usage
 
+```bash
+npm i -D @magic-works/commonjs-import.meta ttypescript typescript ts-node
+yarn add -D @magic-works/commonjs-import.meta ttypescript typescript ts-node
+pnpm i -D @magic-works/commonjs-import.meta ttypescript typescript ts-node
+```
+
 This package works with [ttypescript](https://github.com/cevek/ttypescript).
 
 Add the following to your `tsconfig.json`.
