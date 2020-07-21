@@ -28,7 +28,7 @@ Add the following to your `tsconfig.json`.
         "$schema": "https://unpkg.com/browse/ts-node@8.8.2/tsconfig.schema.json",
         "compilerOptions": {
             "module": "CommonJS",
-            "plugins": [{ "transform": "./importmeta.ts" }]
+            "plugins": [{ "transform": "@magic-works/commonjs-import.meta" }]
         },
         "compiler": "ttypescript",
         // One of:
