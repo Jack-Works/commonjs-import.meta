@@ -25,7 +25,6 @@ Add the following to your `tsconfig.json`.
 ```jsonc
 {
     "ts-node": {
-        "$schema": "https://unpkg.com/browse/ts-node@8.8.2/tsconfig.schema.json",
         "compilerOptions": {
             "module": "CommonJS",
             "plugins": [{ "transform": "@magic-works/commonjs-import.meta" }]
@@ -35,6 +34,7 @@ Add the following to your `tsconfig.json`.
         "ignoreDiagnostics": [1343],
         // Or:
         "transpileOnly": true
+        // To mute The 'import.meta' meta-property is only allowed when the '--module' option is 'esnext' or 'system'.ts(1343)
     }
 }
 ```
