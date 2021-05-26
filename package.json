@@ -1,6 +1,6 @@
 {
     "name": "@magic-works/commonjs-import.meta",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A TypeScript transformer that add import.meta support for CommonJS module format.",
     "main": "index.js",
     "devDependencies": {
